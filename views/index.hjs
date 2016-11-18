@@ -6,6 +6,6 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <p>Hogan here Welcome to {{ title }}</p>
+    <p>HOGAN MAC here Welcome to {{ title }}</p>
   </body>
 </html>
