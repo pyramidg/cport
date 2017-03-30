@@ -1,3 +1,5 @@
+// React Code Sample from: http://138.197.20.54:4001/
+
 var Note = React.createClass({
     getInitialState: function() {
         return {editing: false}
@@ -42,7 +44,7 @@ var Note = React.createClass({
     renderForm: function() {
         return (
             <div className="note" style={this.style}>
-            <textarea ref="newText" defaultValue={this.props.children} 
+            <textarea ref="newText" defaultValue={this.props.children}
             className="form-control"></textarea>
             <button onClick={this.save} className="btn btn-success btn-sm glyphicon glyphicon-floppy-disk" />
             </div>
@@ -128,15 +130,5 @@ var Board = React.createClass({
 });
 
 
-React.render(<Board count={50}/>, 
+React.render(<Board count={50}/>,
     document.getElementById('react-container'));
-
-
-
-
-
-
-
-
-
-
